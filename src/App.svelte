@@ -1,22 +1,11 @@
 <script>
-	export let name;
-
-	function toggleName() {
-	if (name === "world") {
-		name = "Svelte";
-	} else {
-		name = "world";
-	}
-}
+	import Card from './Card.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-  	<button on:click="{toggleName}">Toggle name</button>
-  	<p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  	</p>
+	<h1>The Museum of Dogs</h1>
+  	<p>This website contains images of different types of pure bred dogs</p>
+	<Card />
 </main>
 
 <style>
