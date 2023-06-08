@@ -4,7 +4,9 @@
 
 <main>
 	<h1>The Museum of Dogs</h1>
-  	<p>This website contains images of different types of pure bred dogs</p>
+  	<p>This website contains images of different types of pure 
+		bred dogs. Visit the link to discover more breeds and 
+		more information at the <a href = "https://www.akc.org/">AKC</a></p>
 	<Card />
 </main>
 
